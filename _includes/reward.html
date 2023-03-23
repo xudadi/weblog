@@ -1,37 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<div style="padding:0; margin: 30px auto; width: 100%; text-align: center;">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+    <div style="font-size: 1em; margin: 10px auto;color:red;font-weight: light">
+        如果觉得本文对你有帮助，不妨请我喝杯咖啡
+    </div>
 
-<body>
-    <div style="padding:0; margin: 30px auto; width: 100%; text-align: center;">
+    <button id="rewardButton" disable="enable"
+        onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+        <span>赏</span>
+    </button>
 
-        <div style="font-size: 1em; margin: 10px auto;color:red;font-weight: light">
-            如果觉得本文对你有帮助，不妨请我喝杯咖啡
+    <div id="QR" style="display: none;">
+        <div id="wechat" style="display: inline-block">
+            <img id="wechat_qr" src="/assets/img/def/wechat.png" alt="WeChat Pay" />
+            <p>微信打赏</p>
         </div>
 
-        <button id="rewardButton" disable="enable"
-            onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-            <span>赏</span>
-        </button>
-
-        <div id="QR" style="display: none;">
-            <div id="wechat" style="display: inline-block">
-                <img id="wechat_qr" src="/assets/img/def/wechat.png" alt="WeChat Pay" />
-                <p>微信打赏</p>
-            </div>
-
-            <!--    <div id="alipay" style="display: inline-block">
+        <!--    <div id="alipay" style="display: inline-block">
           <img id="alipay_qr" src="/assets/img/def/alipay.png" alt="Alipay"/>
            <p>支付宝打赏</p>
         </div> -->
-        </div>
-
     </div>
 
-</body>
-
-</html>
+</div>
