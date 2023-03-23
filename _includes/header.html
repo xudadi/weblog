@@ -1,0 +1,20 @@
+<!-- <head>
+    <link rel="stylesheet" type="text/css" href="/blog/assets/css/blog.css">
+    <meta name="theme-color" content="#151515"/>    
+    <meta charset="utf-8"/>
+</head> header.html-->
+<div class="header">
+    <div class="nav-home">
+        <!-- 右上角avatar配置 -->
+        <a href="/blog/index.html"><span>{{ site.name }}</span></a>
+        <a href="/blog/"><img src="{{ site.logo }}" /></a>
+    </div>
+    <ul class="nav-tab-others">
+        {% for nav in site.navs %}
+        {% if nav.label != page.title %}
+        <li><a href="{{ nav.href }}">{{ nav.label }}</a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    <div style="margin-left: 10%;margin-right: 10%;"><span class="module-title">{{ page.title }}</span></div>
+</div>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="theme-color" content="#151515" />
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" type="text/css" href="/blog/assets/css/blog.css">
+    <link rel="stylesheet" type="text/css" href="/blog/assets/css/syntax.css"> {% if page.favicon %}
+    <link rel="icon" href={{page.favicon}}> {% else %}
+    <link rel="icon" href=/blog/assets/img/fav/favicon.ico> {% endif %}
+</head>
+
+<body>
+    <div class="content-wrap">
+        <div class="content-main">
+            {% include header.html %}
+            <div class="post-content">
+                <div> {{ content }} </div>
+                {% include reward.html %}
+            </div>
+        </div>
+        {% include footer.html %}
+        {% include stats.html %}
+</body>
+
+</html>

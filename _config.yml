@@ -1,0 +1,50 @@
+highlighter: rouge
+gems: [jekyll-paginate]
+encoding: utf-8
+paginate: 8
+paginate_path: "num" #page:num#
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+name: 许大地
+bio: xudadi.com
+url: https://www.xudadi.com/
+email: admin@xudadi.com
+logo: "/blog/assets/img/def/logo.jpg"
+fav: "/favicon.ico"
+title: 许大地博客
+description: 许大地的个人网站
+archive_dir: archives # 归档文件夹
+category_dir: categories # 分类文件夹
+
+defaults:
+ -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      show_ad: true
+
+navs:
+  - 
+    href: /blog/index.html
+    label: 主页
+  - 
+    href: https://weibo.com/xudadi811
+    label: 微博
+    external_link: 
+           enable:true
+  -
+    href: /blog/archives
+    label: 归档
+  - 
+    href: /blog/about
+    label: 关于
+
+# ---------------- #
+#      Socials     #
+# ---------------- #
+github_id: #
+weibo_id: xudadi811
