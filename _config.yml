@@ -37,7 +37,7 @@ navs:
     external_link: 
            enable:true
   -
-    href: /archives
+    href: /archives.html
     label: 归档
   - 
     href: /about
