@@ -19,7 +19,7 @@ dskey: /index.html
         <div class="content-main">
             <div class="post-list">
                 {% for post in site.posts %}
-                <a href="{{ /post.url }}">
+                <a href="{{ post.url }}">
                     <div class="post-item">
                         <span class="post-title">{{ post.title }}</span>
                         <span class="post-excerpt">{{ post.excerpt }}</span>
