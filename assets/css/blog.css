@@ -526,6 +526,10 @@ td {
     .post-content {
         margin-left: 25%;
         margin-right: 25%;
+        border-color: #7c7575;
+        border-radius: 15px;
+        border-width: 1px;
+        border-style: solid;
     }
 }
 
