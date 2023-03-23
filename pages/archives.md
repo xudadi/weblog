@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 归档
-permalink: /archives.html
+permalink: /archives
 ---
 {% for post in site.posts %}
     {% assign year = post.date | date: '%Y' %}
