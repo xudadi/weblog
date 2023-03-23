@@ -31,11 +31,6 @@ navs:
   - 
     href: /index.html
     label: 主页
-  - 
-    href: https://weibo.com/xudadi811
-    label: 微博
-    external_link: 
-           enable:true
   -
     href: /archives.html
     label: 归档
