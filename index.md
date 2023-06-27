@@ -7,7 +7,7 @@ dskey: /index
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>{{ page.title }} - {{ site.name }}</title>
-    <link rel="stylesheet" type="text/css" href="weblog/assets/css/blog.css" />
+    <link rel="stylesheet" type="text/css" href="/weblog/assets/css/blog.css" />
     <meta name="theme-color" content="#151515"/>
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.fav }}?">        
     <meta charset="utf-8"/>        
